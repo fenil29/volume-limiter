@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height:100%;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: #ffffffcb;
+  
+}
+:focus {
+  outline: none;
+}
+#slider .noUi-connect {
+  background: #14668b;
+  -webkit-app-region: no-drag;
+}
+#current-volume-slider .noUi-connect {
+  background: #14668b;
+  -webkit-app-region: no-drag;
+}
+#slider {
+  width: 80%;
+  margin: auto;
+  /* margin: 40px; */
+  margin-top: 15px;
+  margin-bottom: 30px;
+  -webkit-app-region: no-drag;
+}
+#current-volume-slider{
+  width: 80%;
+  margin: auto;
+  /* margin: 40px; */
+  margin-top: 15px;
+  margin-bottom: 30px;
+  -webkit-app-region: no-drag;
+}
+.title{
+
+  width: 80%;
+  margin: auto;
+}
+#title-1{
+  margin-top: 30px;
+  width: 80%;
+  /* margin: auto; */
+}
+#title-2{
+  margin-top: 30px;
+  width: 80%;
+  /* margin: auto; */
+}
+#no-drag {
+  -webkit-app-region: no-drag;
+}
+
+ #close {
+  padding: 0px;
+  margin: 0;
+  background-color: #14668b;
+  color: white;
+  height: 31px;
+  text-align: end;
+  -webkit-app-region: drag;
+} 
+#close-icon {
+  float: right;
+  /* height: 30px; */
+  padding: 4px;
+  padding-right: 13px;
+  padding-left: 13px;
+  margin: 0;
+  font-size: 17px;
+  -webkit-app-region: no-drag;
+  user-select: none;
+}
+#close-icon:hover {
+  background-color: rgb(255, 72, 72);
+  cursor:default ;
+}
+
+.value-class {
+  border: 1px solid black;
+  padding: 10px;
+  /* margin: 100px; */
+}
+
+#values {
+  width: 80%;
+  margin: auto;
+}
+#value-1 {
+  float: left;
+}
+#value-2 {
+  float: right;
+}
+#submit {
+  text-align: center;
+  margin: 30px;
+}
+#submit-button,
+#clear-button {
+  border: 1px solid #14668b;
+  width: 200px;
+  border-radius: 5px;
+  /* background: #007bff; */
+  color: #14668b;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px auto;
+  -webkit-app-region: no-drag;
+}
+#submit-button:hover,
+#clear-button:hover {
+  cursor: pointer;
+  background: #14668b;
+  color: white;
+}
+#submit-button:active {
+  background: #14668b;
+}
+
+#clear-both {
+  clear: both;
+}

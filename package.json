@@ -1,0 +1,36 @@
+{
+  "name": "volume-limiter",
+  "version": "1.0.0",
+  "description": "Volume Limiter Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "",
+  "keywords": [],
+  "author": "Fenil Kaneria",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.1.5",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-json-storage": "^4.1.8",
+    "nouislider": "^14.1.0",
+    "win-audio": "^2.0.2"
+  },
+  "build": {
+    "appId": "com.fenilkaneria.volumelimiter",
+    "productName":"Volume Limiter",
+    "target":"NSIS",
+    "directories":{
+      "output":"build"
+    },
+    "nsis":{
+      "allowToChangeInstallationDirectory" :true,
+      "oneClick":false
+    }
+  }
+}

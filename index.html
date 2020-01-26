@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="nouislider.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div id="close">
+    <span id="close-icon">
+      &#10005
+    </span>
+  </div>
+  <div id="clear-both"></div>
+  <div class="title" id="title-1">Volume Limit:</div>
+  <div id="no-drag">
+    <div id="slider">
+    </div>
+  </div>
+
+  <div id="values">
+    <span id="value-1" class="value-class"></span>
+    <span id="value-2" class="value-class"></span>
+  </div>
+  <div id="clear-both"></div>
+  <div id="submit">
+    <div id="submit-button">Set</div>
+    <div id="clear-button">Clear</div>
+  </div>
+  <div class="title" id="title-2">Current Volume:</div>
+
+  <div id="current-volume-slider">
+
+
+  <!-- You can also require other files to run in this process -->
+
+  <script src="./renderer.js"></script>
+  <script src="wNumb.min.js"></script>
+  <script src="nouislider.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

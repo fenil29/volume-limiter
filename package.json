@@ -13,7 +13,7 @@
   "author": "Fenil Kaneria",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^6.1.5",
+    "electron": "^18.3.7",
     "electron-builder": "^21.2.0"
   },
   "dependencies": {
